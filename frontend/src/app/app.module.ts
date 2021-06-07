@@ -1,8 +1,11 @@
+import { HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common'
 
 import { AppRoutingModule } from './app-routing.module';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common'
+
 import { AppComponent } from './app.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntrarComponent } from './entrar/entrar.component';
@@ -25,7 +28,9 @@ import { ContatoComponent } from './contato/contato.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [{
     provide: LocationStrategy,
@@ -34,3 +39,4 @@ import { ContatoComponent } from './contato/contato.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
