@@ -12,19 +12,26 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { MenuComponent } from './menu/menu.component';
 import { ParceirosComponent } from './parceiros/parceiros.component';
 import { RodapeComponent } from './rodape/rodape.component';
-import { HomeComponent } from './home/home.component';
-import { ContatoComponent } from './contato/contato.component';
+import { EntrarComponent } from './entrar/entrar.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { ComponentInicioComponent } from './component-inicio/component-inicio.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { LoginComponent } from './login/login.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     CadastrarComponent,
-    EntrarComponent,
-    ParceirosComponent,
-    RodapeComponent,
-    HomeComponent,
-    ContatoComponent
+    ComponentInicioComponent,
+    InicioComponent,
+    LoginComponent,
+    
+    
+    
   ],
   imports: [
     BrowserModule,
