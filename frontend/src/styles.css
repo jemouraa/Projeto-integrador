@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 html{
     scroll-behavior: smooth;
+=======
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+>>>>>>> 6e62f0136033200cd2a85c7b8faf7628a72f8b2a
 }

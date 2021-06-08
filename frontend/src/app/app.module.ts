@@ -7,28 +7,26 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common'
 import { AppComponent } from './app.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { MenuComponent } from './menu/menu.component';
-import { LoginComponent } from './login/login.component';
-import { FormsModule } from '@angular/forms';
-import { InicioComponent } from './inicio/inicio.component';
-
-
+import { ParceirosComponent } from './parceiros/parceiros.component';
+import { RodapeComponent } from './rodape/rodape.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
+    RodapeComponent,
     CadastrarComponent,
-    LoginComponent,
-    InicioComponent
-    
-    
-    
+    ParceirosComponent,
+    CarrinhoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    //FormsModule
+    FontAwesomeModule
   ],
   providers: [{
     provide: LocationStrategy,
