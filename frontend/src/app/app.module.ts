@@ -17,6 +17,7 @@ import { CarrinhoComponent } from './carrinho/carrinho.component';
     AppComponent,
     MenuComponent,
     RodapeComponent,
+
     CadastrarComponent,
     ParceirosComponent,
     CarrinhoComponent
